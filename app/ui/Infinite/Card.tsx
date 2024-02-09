@@ -4,7 +4,7 @@ const Card = ({content}:any) => {
   return (
     <>
   {content && content?.map((data:any,i:any)=>(
-   <div className="w-[300px] rounded-md border">
+   <div className="w-[300px] rounded-md border" key={i}>
    <img
      src={data?.url}
      alt="Laptop"
