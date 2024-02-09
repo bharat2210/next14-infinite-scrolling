@@ -14,7 +14,7 @@ const Infinite = () => {
     setLoading(true);
     try {
       let response = await fetch(
-        `https://jsonplaceholder.typicode.com/photos?_limit=8&_page=${limit}`
+        `https://jsonplaceholder.typicode.com/photos?_limit=14&_page=${limit}`
       );
 
       if (!response.ok) {
